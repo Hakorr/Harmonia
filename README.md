@@ -3,7 +3,7 @@
 Makes Spotify's desktop layout more user-friendly on mobile. Tablets might not be supported.
 
 > [!WARNING]
-> Expect bugs. Spotify might change their site layout at any moment, breaking Harmonia completely.
+> Doesn't work that well at the moment.
 
 > [!NOTE]
 > Tested with the [Quetta](https://www.quetta.net/) browser. *Psst*, it also blocks ads.
