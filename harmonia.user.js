@@ -9,6 +9,21 @@
 // @run-at      document-start
 // ==/UserScript==
 
+// https://greasyfork.org/en/scripts/394873-webspotify
+(function () {
+    'use strict';
+    let _scr = {};
+    for (const key in window.screen) {
+        _scr[key] = window.screen[key];
+    }
+    Object.setPrototypeOf(_scr, Object.getPrototypeOf(window.screen));
+
+    _scr.width = 1080;
+    _scr.height = 1920;
+
+    window.screen = _scr;
+})();
+
 const meta = document.querySelector('meta[name="viewport"]');
 if(meta) meta.content = meta.content.replace(/,?\s*maximum-scale=1(\.0+)?/g, '');
 
