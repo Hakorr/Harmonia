@@ -2,11 +2,11 @@
 
 Makes Spotify's desktop layout more user-friendly on mobile. Tablets might not be supported.
 
-> [!NOTE]
-> Tested with the [Quetta](https://www.quetta.net/) browser. *Psst*, it also blocks ads, ad-free Spotify experience for mobile without modded APKs.
-
 > [!WARNING]
 > Expect bugs. Spotify might change their site layout at any moment, breaking Harmonia completely.
+
+> [!NOTE]
+> Tested with the [Quetta](https://www.quetta.net/) browser. *Psst*, it also blocks ads.
 
 | **Before** | **After** |
 |---|---|
